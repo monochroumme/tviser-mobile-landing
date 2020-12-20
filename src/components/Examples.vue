@@ -27,13 +27,17 @@ export default {
 			swiperOption: {
 				slidesPerView: 1,
 				spaceBetween: 35,
+				centeredSlides: true,
+				observer: true,
+				observeParents: true,
 				navigation: {
 					nextEl: '.swiper-button-next-examples',
 					prevEl: '.swiper-button-prev-examples',
 				},
 				pagination: {
 					el: '.swiper-pagination-examples',
-					type: 'bullets'
+					type: 'bullets',
+					clickable: true
 				}
 			}
 		}

@@ -21,11 +21,20 @@ export default {
 	data() {
 		return {
 			swiperOption: {
-				slidesPerView: 4,
-				spaceBetween: 25,
+				slidesPerView: 2,
+				spaceBetween: 20,
+				observer: true,
+				observeParents: true,
 				pagination: {
 					el: '.swiper-pagination-clients',
-					type: 'bullets'
+					type: 'bullets',
+					clickable: true
+				},
+				breakpoints: {
+					700: {
+						slidesPerView: 4,
+						spaceBetween: 25
+					}
 				}
 			}
 		}

@@ -29,6 +29,7 @@ input, textarea {
 }
 
 button {
+  font-family: Montserrat;
   cursor: pointer;
   padding: 0;
   background: none;
@@ -57,4 +58,73 @@ button {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.common {
+  &-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #333333;
+  }
+
+  &-subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+  }
+
+  &-button {
+    background: #726AEE;
+    padding: 16px 90px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+
+  &-icon {
+    width: 69px;
+    height: 69px;
+    object-fit: contain;
+  }
+
+  &-text {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #333333;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: unset;
+  }
+
+  .common {
+    &-title, &-subtitle {
+      text-align: center;
+    }
+
+    &-title {
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    &-subtitle {
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    &-button {
+      max-width: 370px;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      border-radius: 6px;
+    }
+  }
 }

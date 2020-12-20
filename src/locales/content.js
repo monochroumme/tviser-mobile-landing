@@ -51,7 +51,12 @@ module.exports = {
 			'pic-alt': 'functionality',
 			title: 'Функционал мобильного приложения',
 			subtitle: 'В приложении доступна оплата картой. Поможем подключить  эквайринг.',
-			additional: '*Это дополнительная услуга.'
+		},
+		{
+			pic: '/pics/functional-icon-1.png',
+			'pic-alt': 'functionality',
+			title: 'Функционал мобильного приложения',
+			subtitle: 'В приложении доступна оплата картой. Поможем подключить  эквайринг.',
 		},
 		{
 			pic: '/pics/functional-icon-1.png',
@@ -65,21 +70,12 @@ module.exports = {
 			'pic-alt': 'functionality',
 			title: 'Функционал мобильного приложения',
 			subtitle: 'В приложении доступна оплата картой. Поможем подключить  эквайринг.',
-			additional: '*Это дополнительная услуга.'
 		},
 		{
 			pic: '/pics/functional-icon-1.png',
 			'pic-alt': 'functionality',
 			title: 'Функционал мобильного приложения',
 			subtitle: 'В приложении доступна оплата картой. Поможем подключить  эквайринг.',
-			additional: '*Это дополнительная услуга.'
-		},
-		{
-			pic: '/pics/functional-icon-1.png',
-			'pic-alt': 'functionality',
-			title: 'Функционал мобильного приложения',
-			subtitle: 'В приложении доступна оплата картой. Поможем подключить  эквайринг.',
-			additional: '*Это дополнительная услуга.'
 		}]
 	},
 
@@ -87,7 +83,7 @@ module.exports = {
 		bg: '/pics/presentation.png',
 		'bg-alt': 'presentation',
 		title: 'Получите презентацию со специальными условиями прямо сейчас',
-		button: 'ЗАКАЗАТЬ ПРИЛОЖЕНИЕ'
+		button: 'Получить презентацию'
 	},
 
 	package: {
